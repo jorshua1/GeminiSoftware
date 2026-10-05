@@ -1,7 +1,7 @@
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
-    <FontFamily x:Key="AppFontFamily">Segoe UI</FontFamily>
+    <FontFamily x:Key="AppFontFamily">Segoe UI, DejaVu Sans, Liberation Sans, Arial, sans-serif</FontFamily>
 
     <!-- Tipografía de Consultorio - Legibilidad >= 1 metro (RNF-04) -->
     <Style x:Key="TitleTextStyle" TargetType="TextBlock">

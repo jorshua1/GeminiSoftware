@@ -21,6 +21,9 @@ public partial class App : Application
     {
         base.OnStartup(e);
 
+        // Fallback to software rendering to avoid GPU context failures in emulated/virtual environments
+        System.Windows.Media.RenderOptions.ProcessRenderMode = System.Windows.Interop.RenderMode.SoftwareOnly;
+
         var services = new ServiceCollection();
         ConfigureServices(services);
 
